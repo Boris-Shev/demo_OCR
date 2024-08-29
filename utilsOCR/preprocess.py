@@ -25,14 +25,14 @@ def deskew_full(img, min_deviation=0.1):
     img = Rotate(-angle, fit_output=True, cval=0)(image=img)
 
     newimg = remove_black_edges(img)
-
-    try :
-        if 'Orientation in degrees: 180' in image_to_osd(newimg):
-            newimg = Rotate(180)(image=newimg)
-        return newimg
-    except TesseractError:
-        print('Препроцессинг не идеальный, поэтому это изображение с черными рамками')
-        return img
+    return newimg
+    # try :
+    #     if 'Orientation in degrees: 180' in image_to_osd(newimg):
+    #         newimg = Rotate(180)(image=newimg)
+    #     return newimg
+    # except TesseractError:
+    #     print('Препроцессинг не идеальный, поэтому это изображение с черными рамками')
+    #     return img
 
 ### Удаляет тени
 # На место тени приходят засвеченные области
