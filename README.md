@@ -1,7 +1,6 @@
 #  OCR Documents
 
 Ссылка на демо: https://colab.research.google.com/drive/1EVBR5fGD2X94jIlHMkUthP5sZ6Fu5dT6?usp=sharing
-[Skillbox Media](https://skillbox.ru/media/)
 ## Pipeline
 
 1) Картинку идет в препроцессинг\
@@ -16,7 +15,10 @@
 
 ## Модели
 
-Детектор: [YOLOv8](https://docs.ultralytics.com/models/yolov8/) \
-P.S. Дополнительно файнтюнился на разных книгах, чтобы детектить слова.
+### __Детектор__: [YOLOv8](https://docs.ultralytics.com/models/yolov8/)
+Файнтинился на документах прошедших препроцессинг\
+P.S. Перед этим дополнительно файнтюнился на разных книгах и синтетическом датасете русских слов, чтобы детектить слова.
 
-Распознаватель: [TrOCR](https://huggingface.co/Stealer0/trocr-base-ru_docs): [paper](https://arxiv.org/abs/2109.10282)
+### __Распознаватель__: [TrOCR](https://huggingface.co/Stealer0/trocr-base-ru_docs): [[paper](https://arxiv.org/abs/2109.10282)]
+Файнтинился на документах прошедших препроцессинг
+
