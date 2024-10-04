@@ -1,6 +1,8 @@
 #  OCR Documents
 
-Ссылка на демо: https://colab.research.google.com/drive/1EVBR5fGD2X94jIlHMkUthP5sZ6Fu5dT6?usp=sharing
+[Демо](https://colab.research.google.com/drive/1EVBR5fGD2X94jIlHMkUthP5sZ6Fu5dT6?usp=sharing)
+
+[Презентация](https://drive.google.com/file/d/1Ep1iDIlnzRuwOM2upZalknIUE1My6bXH/view?usp=sharing)
 ## Pipeline
 
 1) Картинку идет в препроцессинг\
